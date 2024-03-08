@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1077</width>
+    <height>856</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>761</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FiraCode Nerd Font</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QPushButton" name="EntrySubmit">
+      <property name="geometry">
+       <rect>
+        <x>620</x>
+        <y>740</y>
+        <width>97</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="RollNoFormValue">
+      <property name="geometry">
+       <rect>
+        <x>120</x>
+        <y>20</y>
+        <width>121</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="RollNoFormLabel">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>20</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Roll No:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="RollNoFormSubmit">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>20</y>
+        <width>97</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Submit</string>
+      </property>
+     </widget>
+     <widget class="Line" name="line_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>761</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+     <widget class="QScrollArea" name="ExtrasMenu">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>721</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="widgetResizable">
+       <bool>true</bool>
+      </property>
+      <widget class="QWidget" name="scrollAreaWidgetContents">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>719</width>
+         <height>619</height>
+        </rect>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>721</width>
+          <height>621</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout"/>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="OthersAmount">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>730</y>
+        <width>131</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="OthersLabel">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>740</y>
+        <width>71</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Other:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TotalLabel">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>740</y>
+        <width>81</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Total:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="TotalAmount">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>740</y>
+        <width>111</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ResetButton">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>740</y>
+        <width>97</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Reset</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame_3">
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>0</y>
+       <width>311</width>
+       <height>791</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>FiraCode Nerd Font</family>
+       <pointsize>14</pointsize>
+      </font>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="Line" name="line">
+      <property name="geometry">
+       <rect>
+        <x>-17</x>
+        <y>0</y>
+        <width>20</width>
+        <height>791</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentNameLabel">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>330</y>
+        <width>71</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Name</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentRollNoLabel">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>430</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Roll No</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentRoomNoLabel">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>510</y>
+        <width>91</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Room No</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentImageFrame">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>30</y>
+        <width>231</width>
+        <height>261</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="scaledContents">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentName">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>360</y>
+        <width>261</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentRollNo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>462</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="StudentRoomNo">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>550</y>
+        <width>261</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1077</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
